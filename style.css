@@ -17,7 +17,7 @@ header {
 
 h1 {
   text-align: center;
-  font-size: 70px;
+  font-size: 5rem;
   font-weight: bold;
   padding-right: 40px;
 }
@@ -63,4 +63,61 @@ h1 {
   margin: 230px 200px 0 200px;
   font-size: 30px;
   border-radius: 10px;
+}
+
+.infomation {
+  padding-top: 50px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.infomation h2 {
+  margin: 0 auto;
+  font-size: 40px;
+  border-bottom: solid black 3px;
+  width: 200px;
+}
+
+.infomation-box {
+  background-color: rgb(242, 242, 242);
+  width: 600px;
+  margin: 10px auto;
+  border: solid 2px #000000;
+}
+
+section {
+  background-color: rgb(242, 242, 242);
+  margin: 20px 0;
+  text-align: center;
+  font-size: 17px;
+}
+
+section p {
+  border-bottom: solid 1px #000000;
+  width: 200px;
+  margin: 0 auto;
+}
+
+footer {
+  height: 150px;
+}
+
+footer p {
+  line-height: 150px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+footer .hover {
+  display: none;
+}
+
+footer:hover .normal {
+  display: none;
+}
+
+footer:hover .hover {
+  display: inline;
+  padding-left: 39%;
 }

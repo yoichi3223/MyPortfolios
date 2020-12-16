@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,8 @@ body {
     sans-serif;
   background-color: rgba(255, 255, 0, 0.55);
 }
+
+/* index.htmlここから */
 
 header {
   padding-top: 50px;
@@ -82,7 +86,9 @@ h1 {
   background-color: rgb(242, 242, 242);
   width: 600px;
   margin: 10px auto;
-  border: solid 2px #000000;
+  border: #000000 2px solid;
+  overflow: auto;
+  height: 300px;
 }
 
 section {
@@ -121,3 +127,61 @@ footer:hover .hover {
   display: inline;
   padding-left: 39%;
 }
+
+/* index.htmlここまで */
+
+/* about.htmlここから */
+#about-h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.about {
+  padding: 100px 70px 0 70px;
+}
+
+.about-info {
+  height: 330px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: #fffff0;
+  padding: 30px 20px 20px 20px;
+}
+
+.introduce {
+  font-size: 20px;
+}
+
+.keizoku {
+  text-align: center;
+  padding: 23px 0 23px 0;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.about-picture-box {
+  padding: 50px 60px 0 60px;
+  text-align: center;
+
+}
+
+.about-picture-box p {
+  display: inline-block;
+  background-color: #fffff0;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  margin-left: 50px;
+  line-height: 1.7;
+}
+
+
+
+
+
+
+
+
+
+
+/* about.htmlここまで */

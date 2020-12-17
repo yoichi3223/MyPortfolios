@@ -1,19 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description" content = "作成したポートフォリオをまとめたサイトです"> 
+  <title>My Portfolios</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="skippr.css">
   <link rel = "stylesheet" href = "style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class = "profile">
-  <ul>
-    <li>テスト</li>
-  <li>テスト</li>
-  <li>テスト</li>
-  </ul>
+
+  <header>
+    <h1>My Portfolios</h1>
+    <nav class ="list">
+      <ul>
+        <a href = "about.html"><li><img src = "hoshi.jpg">About</li></a>
+        <a href = "#"><li><img src = "hoshi.jpg">Profile</li></a>
+        <a href = "#"><li><img src = "hoshi.jpg">Gallerys</li></a>
+      </ul>
+    </nav>
+  </header>
+
+  <h1 id = "about-h1">Welcome to My Profile</h1>
+
+  <div class = "profile1">
+<p><img src = "mariru.png" class = "profile-image normal"></p>
+<p><img src = "pikachu.png" class = "profile-image click"></p>
+<p>Born in Fukushima Japan</p>
   </div>
-  
+
+    <div class = "profile2">
+<p><strong>趣味</strong>：美味しいお店を開拓、プログミング、読書好きな食べ物:カレー、鍋料理、スイーツ</p>
+<p><strong>好きなスポーツ</strong>：格闘技全般</p>
+<p><strong>これから挑戦したい技術</strong>：React、PHP、Lalavel</p>
+<p><strong>好きな言葉</strong>：継続は力なり</p>
+  </div>
+
+
+  <footer>
+    <P class = "normal">Created by Yoichi Hashimoto</P>
+    <P class = "hover">Thank you for visiting</P>
+  </footer>
+
+<script src = "jquery-3.5.1.min.js"></script>
+<script src = "skippr.min.js"></script>
+<script src = "script.js"></script>
 </body>
 </html>

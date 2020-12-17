@@ -185,6 +185,36 @@ footer:hover .hover {
 
 
 /* about.htmlここまで */
-.profile {
-  list-style-image: url("cake.png");
+.profile1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.profile-image {
+  width: 400px;
+  height: 400px;
+}
+
+.profile2 {
+  width: 800px;
+  padding: 50px 70px;
+  margin: 50px auto 0;
+  background-color: #fffff0;
+
+}
+
+
+
+
+.profile1:active .normal {
+  display: none;
+}
+
+.profile1:active .click {
+  display: inline;
+}
+
+.click {
+  display: none;
 }

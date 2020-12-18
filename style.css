@@ -1,15 +1,9 @@
 @charset "UTF-8";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Dosis',
     sans-serif;
-  background-color: rgba(255, 255, 0, 0.55);
+  background-image: radial-gradient(#ffffaa, #ffafbd);
 }
 
 /* index.htmlここから */
@@ -204,9 +198,6 @@ footer:hover .hover {
 
 }
 
-
-
-
 .profile1:active .normal {
   display: none;
 }
@@ -217,4 +208,56 @@ footer:hover .hover {
 
 .click {
   display: none;
+}
+
+/* 
+ここからgallery.html */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.item {
+  height: 300px;
+  width: 300px;
+  background-color: #fffff0;
+  margin-top: 30px;
+  margin-right: 30px;
+  padding: 150px 100px;
+  font-size: 18px;
+}
+
+
+.gallerys-btn {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: blue;
+  color: #ffffff;
+  border-radius: 20px;
+  display: none;
+  font-weight: bold;
+}
+
+.item:hover .gallerys-btn {
+  display: inline;
+}
+
+
+/* 
+.item:nth-child(1) {
+  margin-left: 30px;
+}
+
+.item:nth-child(6) {
+  margin-left: 30px;
+} */
+#ThinkFrog {
+  background-image: url("ThinkFrog.jpg");
+  background-size: 100% 100%;
+  background-position: center;
 }

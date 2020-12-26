@@ -94,7 +94,7 @@ section {
 
 section p {
   border-bottom: solid 1px #000000;
-  width: 200px;
+  width: 250px;
   margin: 0 auto;
 }
 
@@ -264,6 +264,12 @@ footer:hover .hover {
 
 #gurumeking {
   background-image: url("gurumeking.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#tohoku {
+  background-image: url("touhokunouminoie.jpg");
   background-size: 100% 100%;
   background-position: center;
 }
